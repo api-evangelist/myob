@@ -1,0 +1,51 @@
+name: MYOB Developer Program Plans
+description: MYOB offers three developer program tiers giving access to the MYOB Business API and AccountRight API with varying levels of software access, support, and marketing benefits. All prices are in AUD and include GST.
+url: https://developer.myob.com/developer-program-details/
+plans:
+  - name: Developer Access
+    description: Entry-level developer access to get started with MYOB APIs. Includes shared sandbox file and limited product subscriptions. Ideal for those evaluating or building initial integrations.
+    price: 110.00
+    currency: AUD
+    period: monthly
+    features:
+      - MYOB Business API access
+      - Shared sandbox company file
+      - 1x AccountRight subscription
+      - 1x MYOB Business Pro subscription
+      - Product support for MYOB Business
+  - name: Developer Partner
+    description: Mid-tier partner level for developers building production integrations. Includes full software entitlements and marketplace listing eligibility.
+    price: 220.00
+    currency: AUD
+    period: monthly
+    features:
+      - MYOB Business API access
+      - AccountRight API access
+      - Full software entitlement (20 company data files)
+      - 2x AccountRight subscriptions
+      - 1x MYOB Business Pro subscription
+      - 1x MYOB Business Lite subscription
+      - Product support
+      - Partnership marketing support
+      - App Marketplace listing
+  - name: Premium Developer Partner
+    description: Premium tier for developers with deep MYOB integrations requiring comprehensive software access, certification, and dedicated marketing support.
+    price: 630.00
+    currency: AUD
+    period: monthly
+    features:
+      - MYOB Business API access
+      - AccountRight API access
+      - Full software entitlement (10 company data files)
+      - 2x AccountRight subscriptions
+      - 1x MYOB Business Pro subscription
+      - 1x MYOB Business Lite subscription
+      - Product support
+      - Tailored marketing campaigns and initiatives
+      - App Marketplace listing with full detail
+      - Consulting sessions (30-minute intervals)
+      - Unlimited solution certification
+notes:
+  - Additional feature costs (Payroll, Premium Inventory, Invoice Payments) may apply beyond tier pricing
+  - Billing is on a monthly schedule
+  - Pricing includes GST

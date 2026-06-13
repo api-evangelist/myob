@@ -1,0 +1,27 @@
+name: MYOB API FinOps
+description: Financial operations guidance for teams integrating with the MYOB API, covering developer program costs, cost optimization strategies, and budget planning for API usage.
+url: https://developer.myob.com/developer-program-details/
+considerations:
+  - name: Developer Program Subscription Cost
+    description: Monthly developer program subscription fees are the primary cost for API access. Choose the tier that matches integration depth and business requirements.
+    tiers:
+      - Developer Access: AUD $110/month (including GST) - suitable for evaluation and development
+      - Developer Partner: AUD $220/month (including GST) - suitable for production integrations
+      - Premium Developer Partner: AUD $630/month (including GST) - suitable for deep/enterprise integrations
+  - name: API Call Volume
+    description: The API allows up to 1,000,000 calls per day per API key at no additional per-call cost beyond the monthly subscription. There is no usage-based API call pricing; costs are flat subscription fees.
+  - name: Additional Feature Costs
+    description: Certain MYOB features beyond core accounting (Payroll, Premium Inventory, Invoice Payments) may incur additional costs separate from the developer program subscription.
+  - name: Active API Key Management
+    description: Only 2 active API keys are allowed per developer account. Planning key rotation and management avoids unintentional service interruption.
+optimization:
+  - Start with Developer Access tier (AUD $110/month) during evaluation and development phases before upgrading
+  - Monitor daily API call volume against the 1,000,000/day limit; burst at up to 8 req/sec is well within typical SMB integration needs
+  - Request custom rate limit increases via MYOB support only if daily call volumes approach the limit
+  - Use the shared sandbox company file in Developer Access tier to reduce infrastructure costs during prototyping
+  - Leverage the App Marketplace listing available in Developer Partner and Premium tiers for ROI through customer acquisition
+budgeting:
+  - Annual minimum cost: AUD $1,320 (Developer Access at $110/month x 12)
+  - Annual mid-tier cost: AUD $2,640 (Developer Partner at $220/month x 12)
+  - Annual premium cost: AUD $7,560 (Premium Developer Partner at $630/month x 12)
+  - All costs are in Australian Dollars (AUD) and include GST

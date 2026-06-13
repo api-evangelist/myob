@@ -1,0 +1,82 @@
+aid: myob
+name: MYOB
+description: MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand. The platform supports AccountRight, MYOB Essentials, and MYOB Business product lines through a unified OAuth-authenticated REST API.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/myob/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Accounting
+  - Business Management
+  - Invoices
+  - Bills
+  - Contacts
+  - Payroll
+  - Tax
+  - Financial Reporting
+  - SMB
+  - Australia
+  - New Zealand
+apis:
+  - aid: myob:myob-business-api
+    name: MYOB Business API
+    description: REST-based cloud API for MYOB AccountRight, MYOB Essentials, and MYOB Business. Provides endpoints for managing invoices, bills, contacts (customers, suppliers, employees), general ledger accounts, banking transactions, payroll, tax codes, and financial reporting for SMBs in Australia and New Zealand.
+    image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+    humanURL: https://developer.myob.com/api/myob-business-api/v2/
+    baseURL: https://api.myob.com/accountright/
+    tags:
+      - Accounting
+      - Invoices
+      - Bills
+      - Contacts
+      - Payroll
+      - Tax
+      - Banking
+      - Financial Reporting
+    properties:
+      - type: Documentation
+        url: https://developer.myob.com/api/myob-business-api/v2/
+      - type: GettingStarted
+        url: https://developer.myob.com/api/myob-business-api/api-overview/getting-started/
+      - type: Authentication
+        url: https://developer.myob.com/api/myob-business-api/api-overview/authentication/
+      - type: PostmanCollection
+        url: https://developers.myob.com/api/myob-business-api/accountright-postman-collection/
+    contact:
+      - FN: MYOB API Support
+        url: https://apisupport.myob.com/hc/en-us
+common:
+  - type: Website
+    url: https://www.myob.com/
+  - type: Documentation
+    url: https://developer.myob.com/api/
+  - type: GitHubOrg
+    url: https://github.com/MYOB-Technology
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/myob/
+  - type: Blog
+    url: https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements
+  - type: Pricing
+    url: https://developer.myob.com/developer-program-details/
+  - type: StatusPage
+    url: https://status.myob.com/
+  - type: X
+    url: https://twitter.com/myob
+  - type: Plans
+    url: plans/myob-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/myob-rate-limits.yml
+  - type: FinOps
+    url: finops/myob-finops.yml
+  - type: Support
+    url: https://apisupport.myob.com/hc/en-us
+  - type: Community
+    url: https://community.myob.com/category/partnersgroup/discussions/accountrightapiquestions
+  - type: DeveloperProgram
+    url: https://developer.myob.com/what-is-the-developer-program/
+  - type: ReleaseNotes
+    url: https://apisupport.myob.com/hc/en-us/sections/360000101876-Release-notes
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

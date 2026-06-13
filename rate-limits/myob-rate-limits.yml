@@ -1,0 +1,29 @@
+name: MYOB API Rate Limits
+description: MYOB API rate limits are enforced per API key rather than per account. Developers can hold a maximum of 2 active API keys per developer account. Rate limits apply uniformly across all developer program tiers.
+url: https://community.myob.com/discussions/accountrightapiquestions/api-v2-rate-limits/693742
+limits:
+  - name: Requests Per Second
+    description: Maximum number of API calls allowed per second per API key.
+    limit: 8
+    unit: requests
+    period: second
+    scope: per-api-key
+  - name: Requests Per Day
+    description: Maximum number of API calls allowed per calendar day per API key.
+    limit: 1000000
+    unit: requests
+    period: day
+    scope: per-api-key
+  - name: Active API Keys
+    description: Maximum number of active API keys a developer account may hold simultaneously.
+    limit: 2
+    unit: api-keys
+    scope: per-developer-account
+enforcement:
+  - Limits are enforced at the API key level, not the account level
+  - Exceeding per-second rate limit returns HTTP 429 Too Many Requests
+  - Custom rate limit increases can be requested via MYOB support portal
+notes:
+  - Legacy documentation referenced 5 requests/second and 50,000 requests/day; these are outdated figures
+  - The my.MYOB portal may display incorrect rate limit information; community-confirmed values above are current
+  - Rate limits do not differ by developer program tier (Developer Access, Developer Partner, Premium Developer Partner)

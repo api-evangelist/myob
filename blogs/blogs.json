@@ -1,0 +1,21 @@
+{
+  "aid": "myob",
+  "name": "MYOB",
+  "blogs": [
+    {
+      "type": "Blog",
+      "url": "https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements",
+      "name": "MYOB API Announcements",
+      "description": "API announcements and news from MYOB API Support"
+    },
+    {
+      "type": "ReleaseNotes",
+      "url": "https://apisupport.myob.com/hc/en-us/sections/360000101876-Release-notes",
+      "name": "MYOB API Release Notes",
+      "description": "Release notes for the MYOB Business API"
+    }
+  ],
+  "posts": [],
+  "lastFetched": "2026-06-13",
+  "notes": "Blog and release notes pages returned HTTP 403 during fetch; posts could not be retrieved."
+}

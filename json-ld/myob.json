@@ -1,0 +1,70 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://www.myob.com/",
+  "name": "MYOB",
+  "description": "MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand.",
+  "url": "https://www.myob.com/",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://github.com/MYOB-Technology",
+    "https://www.linkedin.com/company/myob/",
+    "https://twitter.com/myob"
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "url": "https://apisupport.myob.com/hc/en-us",
+    "contactType": "technical support"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://developer.myob.com/api/",
+    "name": "MYOB Developer Portal",
+    "description": "Developer documentation and API reference for MYOB Business API"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "MYOB APIs",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "MYOB Business API",
+        "description": "REST-based cloud API for MYOB AccountRight, MYOB Essentials, and MYOB Business. Provides endpoints for managing invoices, bills, contacts (customers, suppliers, employees), general ledger accounts, banking transactions, payroll, tax codes, and financial reporting for SMBs in Australia and New Zealand.",
+        "url": "https://developer.myob.com/api/myob-business-api/v2/",
+        "category": [
+          "Accounting",
+          "Invoices",
+          "Bills",
+          "Contacts",
+          "Payroll",
+          "Tax",
+          "Banking",
+          "Financial Reporting"
+        ]
+      }
+    ]
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "Australia"
+    },
+    {
+      "@type": "Country",
+      "name": "New Zealand"
+    }
+  ],
+  "keywords": [
+    "Accounting",
+    "Business Management",
+    "Invoices",
+    "Bills",
+    "Contacts",
+    "Payroll",
+    "Tax",
+    "Financial Reporting",
+    "SMB",
+    "Australia",
+    "New Zealand"
+  ]
+}

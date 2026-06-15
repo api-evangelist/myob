@@ -17,5 +17,17 @@
   ],
   "posts": [],
   "lastFetched": "2026-06-13",
-  "notes": "Blog and release notes pages returned HTTP 403 during fetch; posts could not be retrieved."
+  "notes": "Blog and release notes pages returned HTTP 403 during fetch; posts could not be retrieved.",
+  "repo": "myob",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/myob/",
+      "feed_url": "https://www.linkedin.com/company/myob/",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }

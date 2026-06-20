@@ -5,7 +5,7 @@
   "name": "MYOB",
   "description": "MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand.",
   "url": "https://www.myob.com/",
-  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "logo": "https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg",
   "sameAs": [
     "https://github.com/MYOB-Technology",
     "https://www.linkedin.com/company/myob/",

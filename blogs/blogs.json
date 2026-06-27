@@ -17,17 +17,15 @@
   ],
   "posts": [],
   "lastFetched": "2026-06-13",
-  "notes": "Blog and release notes pages returned HTTP 403 during fetch; posts could not be retrieved.",
+  "notes": "MYOB Zendesk help center hard-blocks automated access: the Announcements category, its .atom feed, the help-center articles.atom feed, and the help-center root all return HTTP 403 (curl + WebFetch). No RSS/Atom feed resolves and the HTML page cannot be scraped. No posts retrievable.",
   "repo": "myob",
   "feeds": [
     {
-      "source": "https://www.linkedin.com/company/myob/",
-      "feed_url": "https://www.linkedin.com/company/myob/",
-      "title": "",
+      "source": "https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements",
       "saved": 0,
-      "method": "none"
+      "error": "HTTP 403 Forbidden on blog listing"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-14T20:42:17Z"
+  "fetched": "2026-06-27T12:55:43Z"
 }

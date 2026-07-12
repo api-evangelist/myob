@@ -47,6 +47,8 @@ apis:
       - FN: MYOB API Support
         url: https://apisupport.myob.com/hc/en-us
 common:
+  - type: DomainSecurity
+    url: security/myob-domain-security.yml
   - type: Website
     url: https://www.myob.com/
   - type: Documentation

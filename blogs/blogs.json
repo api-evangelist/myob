@@ -21,11 +21,13 @@
   "repo": "myob",
   "feeds": [
     {
-      "source": "https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements",
+      "source": "https://www.linkedin.com/company/myob/",
+      "feed_url": "https://www.linkedin.com/company/myob/",
+      "title": "",
       "saved": 0,
-      "error": "HTTP 403 Forbidden on blog listing"
+      "method": "none"
     }
   ],
   "post_count": 0,
-  "fetched": "2026-06-27T12:55:43Z"
+  "fetched": "2026-07-11T11:50:51Z"
 }

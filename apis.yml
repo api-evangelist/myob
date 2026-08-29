@@ -1,6 +1,17 @@
 aid: myob
 name: MYOB
 description: MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand. The platform supports AccountRight, MYOB Essentials, and MYOB Business product lines through a unified OAuth-authenticated REST API.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: freemium
   onboarding: unknown

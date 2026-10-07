@@ -1,3 +1,7 @@
+# Provenance stamped 2026-10-07 (roadmap#943): written by an API Evangelist sweep (undated — the file carries no date and git cannot supply one), not
+# harvested from the provider. `method: generated` so the economics campaign may replace it with a
+# dated, verbatim transcription; every figure below is unverified until it does.
+method: generated
 name: MYOB API Rate Limits
 description: MYOB API rate limits are enforced per API key rather than per account. Developers can hold a maximum of 2 active API keys per developer account. Rate limits apply uniformly across all developer program tiers.
 url: https://community.myob.com/discussions/accountrightapiquestions/api-v2-rate-limits/693742

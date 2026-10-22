@@ -1,30 +1,4 @@
 edges:
-- partner_name: SPS Commerce
-  partner: sps-commerce
-  partner_match: domain
-  type: marketplace
-  marketplace: own
-  channel: partner-built
-  relationship: platform-app
-  direction: third-party
-  app: MYOB
-  evidence: https://www.spscommerce.com/partner-community/directory/
-  category: Software Provider
-  contract_reference:
-    register: SPS Commerce partner community directory
-    spec_file: null
-    role: sps-integration-partner
-    registered_name: MYOB
-    website: https://www.myob.com/au
-    matched_domain: myob.com
-    matched_by: domain
-    business_types:
-    - Software Provider
-    signal_note: 'participation only: a directory listing, never a count'
-    detected_by: sweep-consumer-goods.py
-    detected: '2026-10-15'
-  detected_by: sweep-consumer-goods.py
-  first_seen: '2026-10-15'
 - partner_name: Zapier
   partner: zapier
   partner_match: aggregator
@@ -49,6 +23,32 @@ edges:
     beta: false
     builder: unknown (not in the directory record)
   detected_by: sweep-workflow-automation.py
+  first_seen: '2026-10-15'
+- partner_name: SPS Commerce
+  partner: sps-commerce
+  partner_match: domain
+  type: marketplace
+  marketplace: own
+  channel: partner-built
+  relationship: platform-app
+  direction: third-party
+  app: MYOB
+  evidence: https://www.spscommerce.com/partner-community/directory/
+  category: Software Provider
+  contract_reference:
+    register: SPS Commerce partner community directory
+    spec_file: null
+    role: sps-integration-partner
+    registered_name: MYOB
+    website: https://www.myob.com/au
+    matched_domain: myob.com
+    matched_by: domain
+    business_types:
+    - Software Provider
+    signal_note: 'participation only: a directory listing, never a count'
+    detected_by: sweep-consumer-goods.py
+    detected: '2026-10-19'
+  detected_by: sweep-consumer-goods.py
   first_seen: '2026-10-15'
 generated: '2026-10-15'
 method: searched

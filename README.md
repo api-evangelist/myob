@@ -1,4 +1,4 @@
-# MYOB (myob)
+# MYOB
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,73 +66,112 @@
 
 MYOB is an Australian business management platform providing REST APIs for accounting and business operations. The MYOB Business API enables integrations with invoices, bills, contacts, accounts, payroll, tax codes, banking, and financial reporting for small and medium-sized businesses across Australia and New Zealand. The platform supports AccountRight, MYOB Essentials, and MYOB Business product lines through a unified OAuth-authenticated REST API.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/myob/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/myob/refs/heads/main/apis.yml)
+**Areas:** Accounting · Business Management · Invoices · Bills · Contacts · Payroll · Tax · Financial Reporting · Small Business · Australia · New Zealand
 
-## Tags
+## MYOB on APIs.io
 
-- Accounting
-- Business Management
-- Invoices
-- Bills
-- Contacts
-- Payroll
-- Tax
-- Financial Reporting
-- SMB
-- Australia
-- New Zealand
+Everything profiled for MYOB is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/myob/](https://apis.io/providers/myob/)** — or go straight to one of the APIs or properties below.
 
-## Timestamps
+### APIs (1)
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+- [MYOB Business API](https://apis.io/apis/myob/myob-business-api/) — REST-based cloud API for MYOB AccountRight, MYOB Essentials, and MYOB Business. Provides endpoints for managing invoices, bills, contacts (customers,…
 
-## APIs
+### Published properties
 
-### MYOB Business API
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-REST-based cloud API for MYOB AccountRight, MYOB Essentials, and MYOB Business. Provides endpoints for managing invoices, bills, contacts (customers, suppliers, employees), general ledger accounts, banking transactions, payroll, tax codes, and financial reporting for SMBs in Australia and New Zealand.
+#### MCP servers (1)
 
-- **Human URL:** [https://developer.myob.com/api/myob-business-api/v2/](https://developer.myob.com/api/myob-business-api/v2/)
-- **Base URL:** `https://api.myob.com/accountright/`
+Model Context Protocol servers that expose the API to agents.
 
-#### Tags
+- [myob](https://apis.io/servers/myob/myob/)
 
-- Accounting
-- Invoices
-- Bills
-- Contacts
-- Payroll
-- Tax
-- Banking
-- Financial Reporting
+#### Security (1)
 
-#### Properties
+Authentication, trust centre, and vulnerability disclosure.
 
-- [Documentation](https://developer.myob.com/api/myob-business-api/v2/)
-- [Getting Started](https://developer.myob.com/api/myob-business-api/api-overview/getting-started/)
-- [Authentication](https://developer.myob.com/api/myob-business-api/api-overview/authentication/)
-- [Postman Collection](https://developers.myob.com/api/myob-business-api/accountright-postman-collection/) — [Postman Collection 2.1](https://schema.getpostman.com/json/collection/v2.1.0/collection.json)
+- [Myob Domain Security](https://apis.io/security/myob/myob-domain-security/)
 
-## Common Properties
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Myob Plans Pricing](https://apis.io/plans/myob/myob-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Myob Rate Limits](https://apis.io/rate-limits/myob/myob-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Myob Finops](https://apis.io/finops/myob/myob-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.myob.com/)
 - [Documentation](https://developer.myob.com/api/)
-- [Git Hub Org](https://github.com/MYOB-Technology)
-- [LinkedIn](https://www.linkedin.com/company/myob/)
-- [Blog](https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements)
 - [Pricing](https://developer.myob.com/developer-program-details/)
-- [Status Page](https://status.myob.com/)
-- [X (Twitter)](https://twitter.com/myob)
-- [Plans](plans/myob-plans-pricing.yml)
-- [Rate Limits](rate-limits/myob-rate-limits.yml)
-- [Fin Ops](finops/myob-finops.yml)
 - [Support](https://apisupport.myob.com/hc/en-us)
-- [Community](https://community.myob.com/category/partnersgroup/discussions/accountrightapiquestions)
-- [Developer Program](https://developer.myob.com/what-is-the-developer-program/)
-- [Release Notes](https://apisupport.myob.com/hc/en-us/sections/360000101876-Release-notes)
+- [Blog](https://apisupport.myob.com/hc/en-us/categories/360000056875-Announcements)
+- [Status](https://status.myob.com/)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 23.3** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 68.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 18.4 |
+
+**Agent readiness 15.4** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.8** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/myob/](https://apis.io/providers/myob/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for MYOB: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/myob/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
